@@ -1,66 +1,21 @@
-#all {
-display: flex;
-flex-wrap: wrap;
-box-sizing: border-box;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-h2 {
+
+.di {
+    border: 2px solid orangered;
+    width: 250px;
+    margin-top: 30px;
+    margin-left: 30px;
     text-align: center;
-    line-height: 0px;
-    padding-top: 20px;
+    border-radius: 20px;
+    padding: 10px;
 }
 
-#one {
-    width: 280px;
-    height: 230px;
-    border: 2px solid goldenrod;
-    border-radius: 20px;
-    margin: 10px 35px 30px 20px;
-    line-height: 35px;
-    padding: 5px 15px; 
-}
-#two {
-    width: 280px;
-    height: 230px;
-    border: 2px solid goldenrod;
-    border-radius: 20px;
-    margin: 10px 35px 30px 10px;
-    line-height: 35px;
-    padding: 5px 15px; 
-}
-#three{
-    width: 280px;
-    height: 230px;
-    border: 2px solid goldenrod;
-    border-radius: 20px;
-    margin: 10px 35px 30px 10px;
-    line-height: 35px;
-    padding: 5px 15px; 
-}
-
-#four{
-    width: 280px;
-    height: 230px;
-    border: 2px solid goldenrod;
-    border-radius: 20px;
-    margin: 10px 35px 30px 10px;
-    line-height: 35px;
-    padding: 5px 15px; 
-}
-#five{
-    width: 280px;
-    height: 230px;
-    border: 2px solid goldenrod;
-    border-radius: 20px;
-    margin: 10px 51% 30px 20px;
-    line-height: 35px;
-    padding: 5px 15px; 
-}
-#six{
-    width: 280px;
-    height: 230px;
-    border: 2px solid goldenrod;
-    border-radius: 20px;
-    margin: 10px 35px 30px 10px;
-    line-height: 35px;
-    padding: 5px 15px; 
+#re {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
